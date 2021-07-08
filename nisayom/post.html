@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
+        
+        <title>Posts</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <form method="post" id="posts" action="">
+                <h1>Posts</h1>
+                <h5>+ Add a new post</h5>
+                <div class="form-group mt-4">
+                    <label for="title">* Insert title:</label>
+                    <input type="text" class="form-control" name="ttl" id="ttl" placeholder="Enter title" required>
+                </div>
+                <div class="form-group mt-4">
+                    <label for="title">Insert description:</label>
+                    <textarea class="form-control" name="desc" id="desc" placeholder="Enter description"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mb-4 mt-4">Save the post</button>
+                <div id="loader"></div>
+            </form>
+        </div>
+        
+    </body>
+</html>
